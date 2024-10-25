@@ -1,0 +1,13 @@
+<h3>REGISTRO</h3>
+<form (ngSubmit)="registrar(formulario)"#formulario="ngForm">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" name="email" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" name="password"[(ngModel)]="password">
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>

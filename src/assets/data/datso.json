@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$AeHh0F9Le1.mbKLdzQl2..VdxnLOW3K8bzssU2cz4wK23DOW5BYnS",
+      "id": 1
+    },
+    {
+      "email": "diana@yop.com",
+      "password": "$2a$10$6eAUltW/h9RF/bIYcCF3OugcmOWihPl/e9PerVoYB3JOCLWjHTDbm",
+      "id": 2
+    }
+  ],
+  "clientes": [
+    {
+      "id": 7,
+      "nombre": "juan",
+      "apellido": "chulde",
+      "edad": "40"
+    },
+    {
+      "id": "2",
+      "nombre": "Carolina",
+      "apellido": "Ponce",
+      "edad": "18"
+    }
+  ]
+}

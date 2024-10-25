@@ -1,0 +1,23 @@
+
+
+<form (ngSubmit)="editar(formulario)" #formulario="ngForm">
+    <div class="form-group">
+        <label for="email">Ingrese el ID</label>
+        <input type="email" class="form-control" name="id" [(ngModel)]="id">
+      </div>
+    <div class="form-group">
+      <label for="email">Ingrese el Nombre</label>
+      <input type="email" class="form-control" name="nombre" [(ngModel)]="nombre">
+    </div>
+    <div class="form-group">
+        <label for="email">Ingrese el Apellido</label>
+        <input type="email" class="form-control" name="apellido" [(ngModel)]="apellido">
+      </div> 
+      <div class="form-group">
+        <label for="email">Ingrese Edad</label>
+        <input type="email" class="form-control" name="edad" [(ngModel)]="edad">
+    
+    <button type="submit" class="btn btn-success">EDITAR</button>
+</div>
+  </form>
+

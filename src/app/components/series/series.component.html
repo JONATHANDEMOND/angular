@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Genero</th>
+        <th>Desarroladores</th>
+        <th>ACCIONES</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      @for (item of series; track item) {
+        <tr>
+
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.genre}}</td>
+        <td>{{item.developers}}</td>
+        <td><button class="btn btn-success" [routerLink]="['/detalles',item.id]">Detalles</button></td>
+      </tr>
+    }
+    </tbody>
+  </table>
